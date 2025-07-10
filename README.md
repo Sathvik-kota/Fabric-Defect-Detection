@@ -16,7 +16,8 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 | Yellow Cloth   | Solid yellow woven fabric              |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
 | Pink Flower    | Floral printed cloth from public set   |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
 
-
+ **Use cases**:  
+  - Binary classification (defect vs. non‑defect)  
 
 </li>
 </ul>
