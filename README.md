@@ -20,6 +20,7 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 
 <ul>
 <li>
+ 
  **Use cases**:  
  Binary classification (defect vs. non‑defect)  
 
