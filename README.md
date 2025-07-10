@@ -21,6 +21,14 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 <ul>
 <li>
  
+**Total images**: 4000
+
+</li>
+</ul>
+
+<ul>
+<li>
+ 
  **Use cases**:  
  Binary classification (defect vs. non‑defect)  
 
