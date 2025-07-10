@@ -7,12 +7,14 @@ This project focuses on the automated identification of defects in fabric using 
 <li>
 
 **WFDD DATASET(Warping Fault Detection Dataset)**
+It is organized into 4 distinct fabric types, each exhibiting a variety of flaw patterns.
+I have used augmentation techniques for balancing the dataset and to increase generalisation
 | Fabric Class   | Description                            | # Images | Defect Types                   |
 | -------------- | -------------------------------------- | -------: | ------------------------------ |
-| Grey Cloth     | Plain woven grey fabric                |      ~1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
-| Grid Cloth     | Woven pattern with grid/check motifs   |      ~1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
-| Yellow Cloth   | Solid yellow woven fabric              |      ~1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
-| Pink Flower    | Floral printed cloth from public set   |      ~1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
+| Grey Cloth     | Plain woven grey fabric                |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
+| Grid Cloth     | Woven pattern with grid/check motifs   |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
+| Yellow Cloth   | Solid yellow woven fabric              |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
+| Pink Flower    | Floral printed cloth from public set   |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
 
 
 
