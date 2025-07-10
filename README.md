@@ -17,7 +17,7 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 | Pink Flower    | Floral printed cloth from public set   |      1K | • Block‑shape<br>• Line‑type<br>• Point‑like |
 
  **Use cases**:  
-  - Binary classification (defect vs. non‑defect)  
+ Binary classification (defect vs. non‑defect)  
 
 </li>
 </ul>
