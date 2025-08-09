@@ -38,9 +38,8 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 
 ## Screenshots
 ### Augmented
-![Augmented](Image/Augmented.png)
-* Sample augmented defect images generated for each
- fabric category.*
+![Augmented](Images/Augmented.png)
+* Sample augmented defect images generated for each fabric category.*
 
 ## Workflow
 - **Duplicate Removal:** Uses SHA-256 hashing to identify and remove exact duplicate images.
