@@ -73,3 +73,5 @@ WFDD/
 └── pink_flower/
 ├── normal/
 └── defect/
+## Dashboard
+![Dashboard](Images/web.png)
