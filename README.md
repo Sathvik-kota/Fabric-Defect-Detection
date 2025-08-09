@@ -36,16 +36,22 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 </li>
 </ul>
 
-### Overview
-The core contributions are:
+## Workflow
+- **Duplicate Removal:** Uses SHA-256 hashing to identify and remove exact duplicate images.
+- **Image Normalization:** Converts images to grayscale and normalizes intensity for stable processing.
+- **Wavelet Denoising:*** Employs BayesShrink wavelet denoising to remove noise while preserving critical defect features.
+- **Balanced Augmentation:** Strategically undersamples the majority class and augments the minority (defect) class to create a perfectly balanced dataset.
+- **Hybrid Model Architecture:** A custom model featuring a frozen EfficientNetB0 backbone, multi-scale convolutional paths, Squeeze-and-Excitation (SE) attention, and transformer blocks.
+- **Reproducibility:** All code, configurations, and model weights are provided to ensure full reproducibility of our results.
 
--A reproducible, multi-stage preprocessing framework that significantly improves image quality (PSNR/SSIM) and prepares the data for effective model training.
 
--A carefully balanced dataset of 4,000 defect and 4,000 defect-free images, created through strategic undersampling and augmentation.
-
--A custom hybrid deep learning model that combines the strengths of EfficientNetB0, multi-scale attention, and transformer encoders.
-
--Rigorous evaluation using Bayesian hyperparameter optimization, 5-fold stratified cross-validation, and ensemble testing to ensure robust and generalizable results.
+## Prerequisites
+- Python 3.9+
+- TensorFlow 2.8+
+- OpenCV
+- Scikit-image
+- Albumentations
+- Weights & Biases (for logging and sweeps)
 
 ### Folder Structure
 
