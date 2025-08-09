@@ -2,7 +2,7 @@
 This project focuses on the automated identification of defects in fabric using deep learning models. It aims to eliminate manual inspection processes by applying convolutional neural networks (CNNs) to detect irregularities in fabric patterns.
 Our work presents a complete, robust pipeline for identifying defects in woven fabrics, addressing common challenges like dataset imbalance, duplicate images, and noise. The project is applied to the Woven Fabric Defect Detection (WFDD) dataset.
 
-# DATASETS USED FOR IMPLEMENTATION :
+## DATASETS USED FOR IMPLEMENTATION :
 
 <ul>
 <li>
