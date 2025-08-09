@@ -37,8 +37,8 @@ I have used augmentation techniques for balancing the dataset and to increase ge
 </ul>
 
 ## Screenshots
-### Augmented
-![Augmented](Images/Augmented.png)
+## Augmented Image
+![Augmented Image](Images/Augmneted.png)
 * Sample augmented defect images generated for each fabric category.*
 
 ## Workflow
